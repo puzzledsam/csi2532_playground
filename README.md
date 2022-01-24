@@ -1,7 +1,3 @@
 ## Playground CSI2532
 
-Ce playground permet de se familiariser avec GitHub dans le cadre du cours CSI2532
-
-## Lab 1
-
-Ce fichier README a été créé pour le lab 1 du cours.
+Ce playground est utilisé lors des laboratoires du cours CSI2532
