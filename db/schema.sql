@@ -14,3 +14,6 @@ CREATE TABLE schema_migrations (
   migrated_at time, 
   PRIMARY KEY (migration) 
 );
+
+ALTER TABLE athletes 
+RENAME COLUMN identified_gender TO gender;
