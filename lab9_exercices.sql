@@ -27,7 +27,7 @@ CREATE TABLE Author(
 );
 
 CREATE ASSERTION total_author_and_books AS CHECK ( 
-    (SELECT count(*) FROM book) + (SELECT count(*) FROM author) < 10000
+    (SELECT count(*) FROM Book) + (SELECT count(*) FROM Author) < 10000
 );
 
 -- Exercice 3
